@@ -1,0 +1,26 @@
+[
+    {
+        "alphabet":"A",
+        "value":20
+    },
+    {
+        "alphabet":"B",
+        "value":25
+    },
+    {
+        "alphabet":"D",
+        "value":10
+    },
+    {
+        "alphabet":"E",
+        "value":40
+    },
+    {
+        "alphabet":"F",
+        "value":50
+    },
+    {
+        "alphabet":"G",
+        "value":5
+    }
+]
