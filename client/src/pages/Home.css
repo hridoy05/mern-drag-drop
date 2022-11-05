@@ -1,0 +1,77 @@
+.alphabet_container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    box-shadow: 1px;
+}
+.items{
+    height: 120px;
+    width: 120px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.arithmetic_container{
+    display: flex
+}
+.operator_container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 100px;
+}
+.operator_container_item{
+    height: 80px;
+    width: 120px;
+    background-color: rgba(128, 51, 0, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.comparator_container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 70px;
+    margin-top: 100px;
+    gap: 10px;
+}
+.comparator_container_item{
+    height: 80px;
+    width: 120px;
+    background-color: rgba(128, 51, 0, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.integer_container{
+    height: 80px;
+    width: 120px;
+    background-color: rgba(128, 51, 0, 0.692);
+    margin-top: 100px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.droppable_container{
+    height: 120px;
+    width: auto;
+    border: dashed darkgrey;
+    margin: 50px 0;
+}
+.button{
+    background-color: rgb(121, 121, 218);
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 20px;
+    border-color: white;
+    cursor: pointer;
+}
+.button span{
+    color: white;
+}
